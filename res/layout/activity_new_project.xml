@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/addcommentary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="109dp"
+        android:text="Add Commentary" />
+
+    <Button
+        android:id="@+id/addcode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/addphotos"
+        android:layout_centerHorizontal="true"
+        android:text="Add Code" />
+
+    <Button
+        android:id="@+id/addphotos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/addcommentary"
+        android:layout_centerHorizontal="true"
+        android:text="Add Photos or Video" />
+
+    <Button
+        android:id="@+id/uploadtoblog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/addcode"
+        android:layout_centerHorizontal="true"
+        android:text="Upload to Blog" />
+
+    <Button
+        android:id="@+id/addtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/addcommentary"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="48dp"
+        android:text="Add a Title" />
+
+</RelativeLayout>
