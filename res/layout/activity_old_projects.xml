@@ -3,31 +3,57 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
 
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/oldproject3"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="38dp"
+        android:src="@drawable/image1" />
+
     <Button
         android:id="@+id/oldproject1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="107dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="46dp"
+        android:layout_toRightOf="@+id/imageView1"
         android:text="Old Project 1" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/oldproject2"
+        android:layout_toLeftOf="@+id/oldproject1"
+        android:src="@drawable/image3" />
 
     <Button
         android:id="@+id/oldproject2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/oldproject1"
-        android:layout_below="@+id/oldproject1"
-        android:layout_marginTop="34dp"
+        android:layout_alignLeft="@+id/oldproject3"
+        android:layout_below="@+id/oldproject3"
+        android:layout_marginTop="31dp"
         android:text="Old Project 2" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/oldproject3"
+        android:layout_toLeftOf="@+id/oldproject1"
+        android:src="@drawable/image2" />
 
     <Button
         android:id="@+id/oldproject3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/oldproject2"
-        android:layout_below="@+id/oldproject2"
-        android:layout_marginTop="35dp"
+        android:layout_alignLeft="@+id/oldproject1"
+        android:layout_below="@+id/oldproject1"
+        android:layout_marginTop="26dp"
         android:text="Old Project 3" />
 
 </RelativeLayout>
